@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: burlywood;
+}
+body {
+  background-color: bisque;
+}
