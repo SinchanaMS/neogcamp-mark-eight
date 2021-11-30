@@ -2,9 +2,6 @@ import React from "react";
 import "./styles.css";
 import { useState } from "react";
 
-var userName = "Sinchana M S";
-var color = "lightblue";
-
 var emojiDictionary = {
   "🍇": "Grapes",
   "🍋": "Lemon",
@@ -12,7 +9,16 @@ var emojiDictionary = {
   "🍏": "Green Apple",
   "🍑": "Peach",
   "🥑": "Avocado",
-  "🍉": "Watermelon"
+  "🍉": "Watermelon",
+  "🥓": "Bacon",
+  "🧆": "Falafel",
+  "🥟": "Dumpling",
+  "🍯": "Honey Pot",
+  "🍶": "Sake",
+  "🍸": "Cocktail Glass",
+  "☕": "Hot Beverage",
+  "🥛": "Glass of Milk",
+  "🧋": "Bubble Tea"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
@@ -39,7 +45,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h2>Emoji Interpreter - Fruits</h2>
+      <h2>Emoji Interpreter - Food & Drinks</h2>
 
       <input onChange={emojiInputHandler} />
 
